@@ -60,6 +60,6 @@ function onMouseUp() {
 
 
 calculator.addEventListener('click', onInput) 
-calculator.addEventListener('mousedown', onMouseDown)
+display.addEventListener('mousedown', onMouseDown)
 document.addEventListener('mousemove', onMouseMove)
-calculator.addEventListener('mouseup', onMouseUp)
+display.addEventListener('mouseup', onMouseUp)
